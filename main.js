@@ -2,6 +2,7 @@ window.addEventListener('load',init);
 
 var canvas;
 var ctx;
+var Asset = {};
 
 function init(){
     canvas = document.getElementById('maincanvas');
@@ -18,3 +19,6 @@ function update(){
 function render(){
     ctx.clearRext(0,0,canvas.width, canvas.height);
 }
+Asset.assets = [
+    {type:'', name:'',src:'assets/1.png'},
+];
